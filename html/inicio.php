@@ -1,0 +1,452 @@
+<?php include(HTML_DIR . 'component/header.php'); ?>
+
+<body>
+<!--header-->
+
+		<?php include(HTML_DIR . 'component/topbar.php'); ?>
+		<div class="container">
+		
+			<div class="head-top">
+			
+		 <div class="col-sm-8 col-md-offset-2 h_menu4">
+
+		 <?php include(HTML_DIR . 'component/menu.php'); ?>
+
+		</div>
+			<div class="col-sm-2 search-right">
+				<ul class="heart">
+					<li>
+						<a href="html/wishlist.html" >
+						<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+						</a></li>
+						<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><i class="glyphicon glyphicon-search"> </i></a>
+					</li>
+				</ul>
+					<div class="cart box_1">
+						<a href="html/checkout.html">
+						<h3> <div class="total">
+							<span class="simpleCart_total"></span></div>
+							<img src="views/images/cart.png" alt=""/></h3>
+						</a>
+						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+
+					</div>
+					<div class="clearfix"> </div>
+					
+						<!----->
+
+						<!---pop-up-box---->					  
+			<link href="views/css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+			<script src="views/js/jquery.magnific-popup.js" type="text/javascript"></script>
+			<!---//pop-up-box---->
+			<div id="small-dialog" class="mfp-hide">
+				<div class="search-top">
+					<div class="login-search">
+						<input type="submit" value="">
+						<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}">		
+					</div>
+					<p>Shopin</p>
+				</div>				
+			</div>
+		 <script>
+			$(document).ready(function() {
+			$('.popup-with-zoom-anim').magnificPopup({
+			type: 'inline',
+			fixedContentPos: false,
+			fixedBgPos: true,
+			overflowY: 'auto',
+			closeBtnInside: true,
+			preloader: false,
+			midClick: true,
+			removalDelay: 300,
+			mainClass: 'my-mfp-zoom-in'
+			});
+																						
+			});
+		</script>		
+						<!----->
+			</div>
+			<div class="clearfix"></div>
+		</div>	
+	</div>	
+</div>
+<!--banner-->
+<div class="banner">
+<div class="container">
+<section class="rw-wrapper">
+				<h1 class="rw-sentence">
+					<span>Moda &amp; Elegancia</span>
+					<div class="rw-words rw-words-1">
+						<span>Hermosos diseños</span>
+						<span>Ropa de Temporada</span>
+						<!--<span> Totam rem aperiam</span>
+						<span>Nemo enim ipsam</span>
+						<span>Temporibus autem</span>
+						<span>intelligent systems</span>-->
+					</div>
+					<!--<div class="rw-words rw-words-2">
+						<span>We denounce with right</span>
+						<span>But in certain circum</span>
+						<span>Sed ut perspiciatis unde</span>
+						<span>There are many variation</span>
+						<span>The generated Lorem Ipsum</span>
+						<span>Excepteur sint occaecat</span>
+					</div>-->
+				</h1>
+			</section>
+			</div>
+</div>
+	<!--content-->
+		<div class="content">
+			<div class="container">
+				<div class="content-top">
+					<div class="col-md-6 col-md">
+						<div class="col-1">
+						 <a href="single.html" class="b-link-stroke b-animate-go  thickbox">
+		   <img src="views/images/pi.jpg" class="img-responsive" alt=""/><div class="b-wrapper1 long-img"><p class="b-animate b-from-right    b-delay03 ">Lorem ipsum</p><label class="b-animate b-from-right    b-delay03 "></label><h3 class="b-animate b-from-left    b-delay03 ">Trendy</h3></div></a>
+
+							<!---<a href="single.html"><img src="images/pi.jpg" class="img-responsive" alt=""></a>-->
+						</div>
+						<div class="col-2">
+							<span>Hot Deal</span>
+							<h2><a href="single.html">Luxurious &amp; Trendy</a></h2>
+							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years</p>
+							<a href="single.html" class="buy-now">Buy Now</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-md1">
+						<div class="col-3">
+							<a href="single.html"><img src="views/images/man-fashion.jpg" class="img-responsive" alt="">
+							<div class="col-pic">
+								<p>Lorem Ipsum</p>
+								<label></label>
+								<h5>For Men</h5>
+							</div></a>
+						</div>
+						<div class="col-3">
+							<a href="single.html"><img src="views/images/pi2.jpg" class="img-responsive" alt="">
+							<div class="col-pic">
+								<p>Lorem Ipsum</p>
+								<label></label>
+								<h5>For Kids</h5>
+							</div></a>
+						</div>
+						<div class="col-3">
+							<a href="single.html"><img src="views/images/girl-fashion.jpg" class="img-responsive" alt="">
+							<div class="col-pic">
+								<p>Lorem Ipsum</p>
+								<label></label>
+								<h5>For Women</h5>
+							</div></a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<!--products-->
+			<div class="content-mid">
+				<h3>Trending Items</h3>
+				<label class="line"></label>
+				<div class="mid-popular">
+					<div class="col-md-3 item-grid simpleCart_shelfItem">
+					<div class=" mid-pop">
+					<div class="pro-img">
+						<img src="views/images/pc.jpg" class="img-responsive" alt="">
+						<div class="zoom-icon ">
+						<a class="picture" href="images/pc.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
+						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						</div>
+						</div>
+						<div class="mid-1">
+						<div class="women">
+						<div class="women-top">
+							<span>Women</span>
+							<h6><a href="single.html">Sed ut perspiciati</a></h6>
+							</div>
+							<div class="img item_add">
+								<a href="#"><img src="views/images/ca.png" alt=""></a>
+							</div>
+							<div class="clearfix"></div>
+							</div>
+							<div class="mid-2">
+								<p ><label>$100.00</label><em class="item_price">$70.00</em></p>
+								  <div class="block">
+									<div class="starbox small ghosting"> </div>
+								</div>
+								
+								<div class="clearfix"></div>
+							</div>
+							
+						</div>
+					</div>
+					</div>
+					<div class="col-md-3 item-grid simpleCart_shelfItem">
+					<div class=" mid-pop">
+					<div class="pro-img">
+						<img src="views/images/pc1.jpg" class="img-responsive" alt="">
+						<div class="zoom-icon ">
+						<a class="picture" href="views/images/pc1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
+						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						</div>
+						</div>
+						<div class="mid-1">
+						<div class="women">
+						<div class="women-top">
+							<span>Women</span>
+							<h6><a href="single.html">At vero eos</a></h6>
+							</div>
+							<div class="img item_add">
+								<a href="#"><img src="images/ca.png" alt=""></a>
+							</div>
+							<div class="clearfix"></div>
+							</div>
+							<div class="mid-2">
+								<p ><label>$100.00</label><em class="item_price">$70.00</em></p>
+								  <div class="block">
+									<div class="starbox small ghosting"> </div>
+								</div>
+								
+								<div class="clearfix"></div>
+							</div>
+							
+						</div>
+					</div>
+					</div>
+					<div class="col-md-3 item-grid simpleCart_shelfItem">
+					<div class=" mid-pop">
+					<div class="pro-img">
+						<img src="images/pc2.jpg" class="img-responsive" alt="">
+						<div class="zoom-icon ">
+						<a class="picture" href="images/pc2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
+						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						</div>
+						</div>
+						<div class="mid-1">
+						<div class="women">
+						<div class="women-top">
+							<span>Men</span>
+							<h6><a href="single.html">Sed ut perspiciati</a></h6>
+							</div>
+							<div class="img item_add">
+								<a href="#"><img src="images/ca.png" alt=""></a>
+							</div>
+							<div class="clearfix"></div>
+							</div>
+							<div class="mid-2">
+								<p ><label>$100.00</label><em class="item_price">$70.00</em></p>
+								  <div class="block">
+									<div class="starbox small ghosting"> </div>
+								</div>
+								
+								<div class="clearfix"></div>
+							</div>
+							
+						</div>
+					</div>
+					</div>
+					<div class="col-md-3 item-grid simpleCart_shelfItem">
+					<div class=" mid-pop">
+					<div class="pro-img">
+						<img src="images/pc3.jpg" class="img-responsive" alt="">
+						<div class="zoom-icon ">
+						<a class="picture" href="images/pc3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
+						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						</div>
+						</div>
+						<div class="mid-1">
+						<div class="women">
+						<div class="women-top">
+							<span>Women</span>
+							<h6><a href="single.html">On the other</a></h6>
+							</div>
+							<div class="img item_add">
+								<a href="#"><img src="images/ca.png" alt=""></a>
+							</div>
+							<div class="clearfix"></div>
+							</div>
+							<div class="mid-2">
+								<p ><label>$100.00</label><em class="item_price">$70.00</em></p>
+								  <div class="block">
+									<div class="starbox small ghosting"> </div>
+								</div>
+								
+								<div class="clearfix"></div>
+							</div>
+							
+						</div>
+					</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+								<div class="mid-popular">
+					<div class="col-md-3 item-grid simpleCart_shelfItem">
+					<div class=" mid-pop">
+					<div class="pro-img">
+						<img src="images/pc4.jpg" class="img-responsive" alt="">
+						<div class="zoom-icon ">
+						<a class="picture" href="images/pc4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
+						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						</div>
+						</div>
+						<div class="mid-1">
+						<div class="women">
+						<div class="women-top">
+							<span>Men</span>
+							<h6><a href="single.html">On the other</a></h6>
+							</div>
+							<div class="img item_add">
+								<a href="#"><img src="images/ca.png" alt=""></a>
+							</div>
+							<div class="clearfix"></div>
+							</div>
+							<div class="mid-2">
+								<p ><label>$100.00</label><em class="item_price">$70.00</em></p>
+								  <div class="block">
+									<div class="starbox small ghosting"> </div>
+								</div>
+								
+								<div class="clearfix"></div>
+							</div>
+							
+						</div>
+					</div>
+					</div>
+					<div class="col-md-3 item-grid simpleCart_shelfItem">
+					<div class=" mid-pop">
+					<div class="pro-img">
+						<img src="images/pc5.jpg" class="img-responsive" alt="">
+						<div class="zoom-icon ">
+						<a class="picture" href="images/pc5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
+						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						</div>
+						</div>
+						<div class="mid-1">
+						<div class="women">
+						<div class="women-top">
+							<span>Men</span>
+							<h6><a href="single.html">Sed ut perspiciati</a></h6>
+							</div>
+							<div class="img item_add">
+								<a href="#"><img src="images/ca.png" alt=""></a>
+							</div>
+							<div class="clearfix"></div>
+							</div>
+							<div class="mid-2">
+								<p ><label>$100.00</label><em class="item_price">$70.00</em></p>
+								  <div class="block">
+									<div class="starbox small ghosting"> </div>
+								</div>
+								
+								<div class="clearfix"></div>
+							</div>
+							
+						</div>
+					</div>
+					</div>
+					<div class="col-md-3 item-grid simpleCart_shelfItem">
+					<div class=" mid-pop">
+					<div class="pro-img">
+						<img src="images/pc6.jpg" class="img-responsive" alt="">
+						<div class="zoom-icon ">
+						<a class="picture" href="images/pc6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
+						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						</div>
+						</div>
+						<div class="mid-1">
+						<div class="women">
+						<div class="women-top">
+							<span>Women</span>
+							<h6><a href="single.html">At vero eos</a></h6>
+							</div>
+							<div class="img item_add">
+								<a href="#"><img src="images/ca.png" alt=""></a>
+							</div>
+							<div class="clearfix"></div>
+							</div>
+							<div class="mid-2">
+								<p ><label>$100.00</label><em class="item_price">$70.00</em></p>
+								  <div class="block">
+									<div class="starbox small ghosting"> </div>
+								</div>
+								
+								<div class="clearfix"></div>
+							</div>
+							
+						</div>
+					</div>
+					</div>
+					<div class="col-md-3 item-grid simpleCart_shelfItem">
+					<div class=" mid-pop">
+					<div class="pro-img">
+						<img src="images/pc7.jpg" class="img-responsive" alt="">
+						<div class="zoom-icon ">
+						<a class="picture" href="images/pc7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox"><i class="glyphicon glyphicon-search icon "></i></a>
+						<a href="single.html"><i class="glyphicon glyphicon-menu-right icon"></i></a>
+						</div>
+						</div>
+						<div class="mid-1">
+						<div class="women">
+						<div class="women-top">
+							<span>Men</span>
+							<h6><a href="single.html">Sed ut perspiciati</a></h6>
+							</div>
+							<div class="img item_add">
+								<a href="#"><img src="images/ca.png" alt=""></a>
+							</div>
+							<div class="clearfix"></div>
+							</div>
+							<div class="mid-2">
+								<p ><label>$100.00</label><em class="item_price">$70.00</em></p>
+								  <div class="block">
+									<div class="starbox small ghosting"> </div>
+								</div>
+								
+								<div class="clearfix"></div>
+							</div>
+							
+						</div>
+					</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<!--//products-->
+			<!--brand-->
+			<div class="brand">
+				<div class="col-md-3 brand-grid">
+					<img src="images/ic.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 brand-grid">
+					<img src="images/ic1.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 brand-grid">
+					<img src="images/ic2.png" class="img-responsive" alt="">
+				</div>
+				<div class="col-md-3 brand-grid">
+					<img src="images/ic3.png" class="img-responsive" alt="">
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<!--//brand-->
+			</div>
+			
+		</div>
+	<!--//content-->
+<?php include(HTML_DIR . 'component/footer.php'); ?>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="views/js/simpleCart.min.js"> </script>
+<!-- slide -->
+<script src="views/js/bootstrap.min.js"></script>
+<!--light-box-files -->
+		<script src="views/js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="views/css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+		<!--light-box-files -->
+		<script type="views/text/javascript" charset="utf-8">
+		$(function() {
+			$('a.picture').Chocolat();
+		});
+		</script>
+
+
+</body>
+</html>
