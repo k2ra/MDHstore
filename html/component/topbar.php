@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="head">
 			<div class=" logo">
-				<a href="html/inicio.php"><img src="views/images/logo.png" alt=""></a>	
+				<a href="."><img src="views/images/logo.png" alt=""></a>	
 			</div>
 		</div>
 	</div>
@@ -10,9 +10,9 @@
 		<div class="container">
 			<div class="col-sm-5 col-md-offset-2  header-login">
 					<ul >
-						<li><a href="html/login.html">Login</a></li>
-						<li><a href="html/register.html">Register</a></li>
-						<li><a href="html/checkout.html">Checkout</a></li>
+						<li><a href="?view=login">Login</a></li>
+						<li><a href="?view=register">Register</a></li>
+						<li><a href="?view=order">Orders</a></li>
 					</ul>
 			</div>
 				

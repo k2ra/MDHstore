@@ -2,8 +2,11 @@
 
 <body>
 <!--header-->
+		<div class="header">
+			<?php include(HTML_DIR . 'component/topbar.php'); ?>
+	
+		</div>
 
-		<?php include(HTML_DIR . 'component/topbar.php'); ?>
 		<div class="container">
 		
 			<div class="head-top">
@@ -32,7 +35,7 @@
 
 					</div>
 					<div class="clearfix"> </div>
-					
+				</div>	
 						<!----->
 
 						<!---pop-up-box---->					  
@@ -144,7 +147,7 @@
 				</div>
 				<!--products-->
 			<div class="content-mid">
-				<h3>Trending Items</h3>
+				<h3>Mas vendidos</h3>
 				<label class="line"></label>
 				<div class="mid-popular">
 					<div class="col-md-3 item-grid simpleCart_shelfItem">

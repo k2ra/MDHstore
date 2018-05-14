@@ -13,10 +13,10 @@
    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
         <ul class="nav navbar-nav nav_1">
-            <li><a class="color" href="index.html">Home</a></li>
+            <li><a class="color" href=".">Home</a></li>
             
     		<li class="dropdown mega-dropdown active">
-			    <a class="color1" href="#" class="dropdown-toggle" data-toggle="dropdown">Joyas<span class="caret"></span></a>				
+			    <a class="color1" href="#" class="dropdown-toggle" data-toggle="dropdown">Damas<span class="caret"></span></a>				
 				<div class="dropdown-menu ">
                     <div class="menu-top">
 						<div class="col1">
@@ -80,7 +80,7 @@
 				</div>				
 			</li>
 			<li class="dropdown mega-dropdown active">
-			    <a class="color2" href="#" class="dropdown-toggle" data-toggle="dropdown">Relojes<span class="caret"></span></a>				
+			    <a class="color2" href="#" class="dropdown-toggle" data-toggle="dropdown">Caballeros<span class="caret"></span></a>				
 				<div class="dropdown-menu mega-dropdown-menu">
                     <div class="menu-top">
 						<div class="col1">
@@ -144,7 +144,7 @@
 					</div>                  
 				</div>				
 			</li>
-			<li><a class="color3" href="product.html">Sale</a></li>
+			<li><a class="color3" href="html/product.html">Ofertas</a></li>
 			<li><a class="color4" href="404.html">About</a></li>
             
             <li ><a class="color6" href="contact.html">Contact</a></li>
