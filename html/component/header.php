@@ -22,7 +22,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="views/css/style4.css" rel="stylesheet" type="text/css" media="all" />	
 <!--//theme-style-->
 <script src="views/js/jquery.min.js"></script>
-<!--- start-rate---->
+<!--- start-rate-->
 <script src="views/js/jstarbox.js"></script>
 	<link rel="stylesheet" href="views/css/jstarbox.css" type="text/css" media="screen" charset="utf-8" />
 		<script type="text/javascript">
@@ -46,6 +46,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 		});
 		</script>
-<!---//End-rate---->
+<!---//End-rate-->
+<!---pop-up-box-->					  
+	<link href="views/css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+	<script src="views/js/jquery.magnific-popup.js" type="text/javascript"></script>
+<!---//pop-up-box-->
 
 </head>
