@@ -2,10 +2,10 @@
 
 session_start();
 
-/*define('DB_HOST','localhost');
-define('DB_USER','UserCotiza');
-define('DB_PASS','UserCotiza');
-define('DB_NAME','cotizaciones');*/
+define('DB_HOST','localhost');
+define('DB_USER','MultiStore');
+define('DB_PASS','MultiStore');
+define('DB_NAME','multistore');
 /*produccion
 define('DB_USER','solution_survey');
 define('DB_PASS','solution_survey');
@@ -17,7 +17,7 @@ define('APP_URL','http://'. $_SERVER['SERVER_NAME'].'/demos/MDHstore/');
 
 //define('QUANTITY_QTS',3);
 
-//require('core/models/class.Conexion.php');
+require('core/models/class.Conexion.php');
 //require('core/models/models.php');
 
 //require('core/models/class.phpmailer.php');
